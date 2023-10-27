@@ -1,130 +1,130 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<tour appversion="7.0.4" start="node4" apprev="19982">
+<tour start="node4" appversion="7.0.4" apprev="19982">
   <panorama id="node7">
-    <input levelingpitch="0" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelingroll="0" height="2048" overlap="1">
-      <level preload="0" predecode="0" width="2048" height="2048"/>
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
+    <input leveltilesize="510" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" height="2048" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node7/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2048" predecode="0" preload="0" height="2048"/>
+      <level width="1024" predecode="0" preload="0" height="1024"/>
+      <level width="512" predecode="0" preload="0" height="512"/>
+      <level width="256" predecode="1" preload="1" height="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" fov="100" tilt="0" pan="0"/>
-      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140" tilt="90" pan="360"/>
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
     </view>
-    <userdata description="" info="" title="Gedung Makosat" author="" longitude="" latitude="" copyright="" source="" datetime="" customnodeid="" comment="" nodeid="node7" tags="Pano2VR7" heading="0">
-      <mapcoords y="-0.439453" y_floorplan_percent="29.6296" mapid="FloorPlan01" x_floorplan_percent="68.8542" x="1.81549"/>
+    <userdata author="" title="Gedung Makosat" datetime="" latitude="" source="" nodeid="node7" heading="0" info="" customnodeid="" copyright="" description="" comment="" tags="Pano2VR7" longitude="">
+      <mapcoords x="1.81549" y="-0.439453" y_floorplan_percent="29.6296" x_floorplan_percent="68.8542" mapid="FloorPlan01"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
-      <label wordwrap="1" textalpha="1" background="1" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textcolor="0x000000" width="180" borderradius="1" height="20" enabled="1"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" background="1" height="20" backgroundcolor="0xffffff" wordwrap="1" border="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot pan="-12.66" description="" url="images/Makosat.jpg" title="Tampak Depan" skinid="ht_image" target="" tilt="9.47" id="Point01"/>
-      <hotspot pan="-323.64" description="" url="" title="Metode Pekerjaan" skinid="ht_video_file" target="" tilt="20.34" id="Point02"/>
-      <hotspot pan="-40.55" description="Gedung Mako memiliki luasan bangunan 855 m2, terdiri dari 4 lantai. Dengan menggunakan pondasi Borpile dan Pilecap, dan jg menggunakan tie beam dengan dimensi 300x500, kolom dengan type K1,K2, dan K4 dengan dimensi type K1 : 60x60, K2 : 50x50, K4 : 30x30, dan Balok dengan type BI-1,BI-2,BI-3, BA-1 pada dimensi type BI-1 : 40x60, BI-2 : 30x60, BI-3 : 30x60, dan BA-1 : 25x35" url="" title="Informasi Umum" skinid="ht_info" target="" tilt="9.15" id="Point03"/>
+      <hotspot title="Tampak Depan" target="" id="Point01" skinid="ht_image" pan="-12.66" tilt="9.47" description="" url="images/Makosat.jpg"/>
+      <hotspot title="Metode Pekerjaan" target="" id="Point02" skinid="ht_video_file" pan="-323.64" tilt="20.34" description="" url="media/Gedung Mako.mp4"/>
+      <hotspot title="Informasi Umum" target="" id="Point03" skinid="ht_info" pan="-40.55" tilt="9.15" description="Gedung Mako memiliki luasan bangunan 855 m2, terdiri dari 4 lantai. Dengan menggunakan pondasi Borpile dan Pilecap, dan jg menggunakan tie beam dengan dimensi 300x500, kolom dengan type K1,K2, dan K4 dengan dimensi type K1 : 60x60, K2 : 50x50, K4 : 30x30, dan Balok dengan type BI-1,BI-2,BI-3, BA-1 pada dimensi type BI-1 : 40x60, BI-2 : 30x60, BI-3 : 30x60, dan BA-1 : 25x35" url=""/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" delay="none" softedge="0" blendtime="1" zoomin="0" type="crossdissolve" enabled="1"/>
-    <animation clipsrandom="0" animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" lockedmouse="0" rubberband="0" zoomcentercursor="1" lockedwheel="0" speedwheel="1" contextvr="1" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" invertwheel="0"/>
+    <transition type="crossdissolve" softedge="0" zoomin="0" enabled="1" delay="none" blendtime="1" zoomout="0" zoomfov="40" zoomafteroutfov="40" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control zoomcentercursor="1" invertcontrol="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0" invertwheel="0" hideabout="0" simulatemass="1" contextvr="1" rubberband="0" lockedwheel="0" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node3">
-    <input levelingpitch="0" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1024" levelingroll="0" height="1024" overlap="1">
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
+    <input leveltilesize="510" levelingroll="0" levelingpitch="0" width="1024" levelbias="0.400" height="1024" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1024" predecode="0" preload="0" height="1024"/>
+      <level width="512" predecode="0" preload="0" height="512"/>
+      <level width="256" predecode="1" preload="1" height="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" fov="100" tilt="0" pan="0"/>
-      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140" tilt="90" pan="360"/>
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
     </view>
-    <userdata description="" info="" title="Gudang Amunisi" author="" longitude="" latitude="" copyright="" source="" datetime="" customnodeid="" comment="" nodeid="node3" tags="pano 2" heading="0">
-      <mapcoords y="-1.21948" y_floorplan_percent="82.2222" mapid="FloorPlan01" x_floorplan_percent="49.7917" x="1.31287"/>
+    <userdata author="" title="Gudang Amunisi" datetime="" latitude="" source="" nodeid="node3" heading="0" info="" customnodeid="" copyright="" description="" comment="" tags="pano 2" longitude="">
+      <mapcoords x="1.31287" y="-1.21948" y_floorplan_percent="82.2222" x_floorplan_percent="49.7917" mapid="FloorPlan01"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
-      <label wordwrap="1" textalpha="1" background="1" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textcolor="0x000000" width="180" borderradius="1" height="20" enabled="1"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" background="1" height="20" backgroundcolor="0xffffff" wordwrap="1" border="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot pan="-27.78" description="" url="images/GUDANG.jpg" title="Tampak Depan" skinid="ht_image" target="" tilt="3.41" id="Point01"/>
-      <hotspot pan="-342.06" description="" url="media/Gudang Amunisi1.mp4" title="Metode Pekerjaan" skinid="ht_video_file" target="" tilt="5.14" id="Point02"/>
-      <hotspot pan="-41.31" description="Gedung Gudang Amunisi memilik luas bangunan 720 m2. Gudang amunisi ini menggunakan pondasi Pilecap dan batu kali, memakan sloof dengan dimensi 300x400, kolom dengan dimensi 300x300, ring balok 250x400, dan dak beton dengan tebal 150 mm" url="" title="Informasi Umum" skinid="ht_info" target="" tilt="1.99" id="Point03"/>
-      <hotspot pan="-44.49" description="" url="{node4}" title="Parkiran Khusus" skinid="ht_node" target="" tilt="9.89" id="Point04"/>
-      <hotspot pan="-281.62" description="" url="{node6}" title="Kantor Lama" skinid="ht_node" target="" tilt="5.99" id="Point05"/>
-      <hotspot pan="-352.08" description="" url="{node7}" title="Gedung Makosat" skinid="ht_node" target="" tilt="20.79" id="Point06"/>
+      <hotspot title="Tampak Depan" target="" id="Point01" skinid="ht_image" pan="-27.78" tilt="3.41" description="" url="images/GUDANG.jpg"/>
+      <hotspot title="Metode Pekerjaan" target="" id="Point02" skinid="ht_video_file" pan="-342.06" tilt="5.14" description="" url="media/Gudang Amunisi1.mp4"/>
+      <hotspot title="Informasi Umum" target="" id="Point03" skinid="ht_info" pan="-41.31" tilt="1.99" description="Gedung Gudang Amunisi memilik luas bangunan 720 m2. Gudang amunisi ini menggunakan pondasi Pilecap dan batu kali, memakan sloof dengan dimensi 300x400, kolom dengan dimensi 300x300, ring balok 250x400, dan dak beton dengan tebal 150 mm" url=""/>
+      <hotspot title="Parkiran Khusus" target="" id="Point04" skinid="ht_node" pan="-44.49" tilt="9.89" description="" url="{node4}"/>
+      <hotspot title="Kantor Lama" target="" id="Point05" skinid="ht_node" pan="-281.62" tilt="5.99" description="" url="{node6}"/>
+      <hotspot title="Gedung Makosat" target="" id="Point06" skinid="ht_node" pan="-352.08" tilt="20.79" description="" url="{node7}"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" delay="none" softedge="0" blendtime="1" zoomin="0" type="crossdissolve" enabled="1"/>
-    <animation clipsrandom="0" animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" lockedmouse="0" rubberband="0" zoomcentercursor="1" lockedwheel="0" speedwheel="1" contextvr="1" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" invertwheel="0"/>
+    <transition type="crossdissolve" softedge="0" zoomin="0" enabled="1" delay="none" blendtime="1" zoomout="0" zoomfov="40" zoomafteroutfov="40" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control zoomcentercursor="1" invertcontrol="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0" invertwheel="0" hideabout="0" simulatemass="1" contextvr="1" rubberband="0" lockedwheel="0" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node4">
-    <input levelingpitch="0" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1024" levelingroll="0" height="1024" overlap="1">
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
+    <input leveltilesize="510" levelingroll="0" levelingpitch="0" width="1024" levelbias="0.400" height="1024" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="1024" predecode="0" preload="0" height="1024"/>
+      <level width="512" predecode="0" preload="0" height="512"/>
+      <level width="256" predecode="1" preload="1" height="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" fov="100" tilt="0" pan="0"/>
-      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140" tilt="90" pan="360"/>
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
     </view>
-    <userdata description="" info="" title="Parkiran Khusus" author="" longitude="" latitude="" copyright="" source="" datetime="" customnodeid="" comment="" nodeid="node4" tags="pano 2" heading="0">
-      <mapcoords y="-1.22635" y_floorplan_percent="82.6852" mapid="FloorPlan01" x_floorplan_percent="60.1563" x="1.58615"/>
+    <userdata author="" title="Parkiran Khusus" datetime="" latitude="" source="" nodeid="node4" heading="0" info="" customnodeid="" copyright="" description="" comment="" tags="pano 2" longitude="">
+      <mapcoords x="1.58615" y="-1.22635" y_floorplan_percent="82.6852" x_floorplan_percent="60.1563" mapid="FloorPlan01"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
-      <label wordwrap="1" textalpha="1" background="1" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textcolor="0x000000" width="180" borderradius="1" height="20" enabled="1"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" background="1" height="20" backgroundcolor="0xffffff" wordwrap="1" border="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot pan="-19.1" description="" url="images/Parkiran Khusus.jpg" title="Tampak Depan" skinid="ht_image" target="" tilt="12.28" id="Point01"/>
-      <hotspot pan="-334.48" description="" url="media/Parkiran1.mp4" title="Metode Pekerjaan" skinid="ht_video_file" target="" tilt="19.51" id="Point02"/>
-      <hotspot pan="-35.26" description="Parkiran Khusus memilik luasan bangunan 900 m2, parkiran khusus ini memakai pondasi Pilecap dan batu kali, menggunakan pilecap dengan type P1 dan P2 dengan ukuran P1 : 120x120x25, sedangkan P2 : 100x100x25. Dengan menggunakan sloof dimensi 30x40, Kolom dengan dimensi 40x40, dan balok dimensi 25x40. Parkiran khusus ini menggunakan rangka atap baja wf 250x125x7,5x12,5, gording C150x7,5x6,5x10 dan penutup atap spandek tebal 0.35 mm dengan kemiringan atap 5%.&#xa;" url="" title="Informasi Umum" skinid="ht_info" target="" tilt="7.12" id="Point03"/>
-      <hotspot pan="-262.68" description="" url="{node3}" title="Gudang Amunisi" skinid="ht_node" target="" tilt="-12.95" id="Point04"/>
-      <hotspot pan="-247.39" description="" url="{node6}" title="Kantor Lama" skinid="ht_node" target="" tilt="-2.59" id="Point05"/>
+      <hotspot title="Tampak Depan" target="" id="Point01" skinid="ht_image" pan="-19.1" tilt="12.28" description="" url="images/Parkiran Khusus.jpg"/>
+      <hotspot title="Metode Pekerjaan" target="" id="Point02" skinid="ht_video_file" pan="-334.48" tilt="19.51" description="" url="media/Parkiran.mp4"/>
+      <hotspot title="Informasi Umum" target="" id="Point03" skinid="ht_info" pan="-35.26" tilt="7.12" description="Parkiran Khusus memilik luasan bangunan 900 m2, parkiran khusus ini memakai pondasi Pilecap dan batu kali, menggunakan pilecap dengan type P1 dan P2 dengan ukuran P1 : 120x120x25, sedangkan P2 : 100x100x25. Dengan menggunakan sloof dimensi 30x40, Kolom dengan dimensi 40x40, dan balok dimensi 25x40. Parkiran khusus ini menggunakan rangka atap baja wf 250x125x7,5x12,5, gording C150x7,5x6,5x10 dan penutup atap spandek tebal 0.35 mm dengan kemiringan atap 5%.&#xa;" url=""/>
+      <hotspot title="Gudang Amunisi" target="" id="Point04" skinid="ht_node" pan="-262.68" tilt="-12.95" description="" url="{node3}"/>
+      <hotspot title="Kantor Lama" target="" id="Point05" skinid="ht_node" pan="-247.39" tilt="-2.59" description="" url="{node6}"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" delay="none" softedge="0" blendtime="1" zoomin="0" type="crossdissolve" enabled="1"/>
-    <animation clipsrandom="0" animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" lockedmouse="0" rubberband="0" zoomcentercursor="1" lockedwheel="0" speedwheel="1" contextvr="1" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" invertwheel="0"/>
+    <transition type="crossdissolve" softedge="0" zoomin="0" enabled="1" delay="none" blendtime="1" zoomout="0" zoomfov="40" zoomafteroutfov="40" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control zoomcentercursor="1" invertcontrol="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0" invertwheel="0" hideabout="0" simulatemass="1" contextvr="1" rubberband="0" lockedwheel="0" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <panorama id="node6">
-    <input levelingpitch="0" levelbias="0.400" leveltilesize="510" levelbiashidpi="1.000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg" width="2048" levelingroll="0" height="2048" overlap="1">
-      <level preload="0" predecode="0" width="2048" height="2048"/>
-      <level preload="0" predecode="0" width="1024" height="1024"/>
-      <level preload="0" predecode="0" width="512" height="512"/>
-      <level preload="1" predecode="1" width="256" height="256"/>
+    <input leveltilesize="510" levelingroll="0" levelingpitch="0" width="2048" levelbias="0.400" height="2048" levelbiashidpi="1.000" overlap="1" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level width="2048" predecode="0" preload="0" height="2048"/>
+      <level width="1024" predecode="0" preload="0" height="1024"/>
+      <level width="512" predecode="0" preload="0" height="512"/>
+      <level width="256" predecode="1" preload="1" height="256"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view pannorth="0" fovmode="2">
-      <start projection="4" fov="100" tilt="0" pan="0"/>
-      <flyin projection="9" fov="170" tilt="-90" pan="0"/>
-      <min fovpixel="2" tilt="-90" pan="0"/>
-      <max fovfisheye="360" scaletofit="1" fovstereographic="330" fov="140" tilt="90" pan="360"/>
+      <start projection="4" fov="100" pan="0" tilt="0"/>
+      <flyin projection="9" fov="170" pan="0" tilt="-90"/>
+      <min pan="0" tilt="-90" fovpixel="2"/>
+      <max fov="140" scaletofit="1" fovfisheye="360" pan="360" tilt="90" fovstereographic="330"/>
     </view>
-    <userdata description="" info="" title="Kantor Lama" author="" longitude="" latitude="" copyright="" source="" datetime="" customnodeid="" comment="" nodeid="node6" tags="Pano2VR7" heading="0">
-      <mapcoords y="-1.12198" y_floorplan_percent="75.6481" mapid="FloorPlan01" x_floorplan_percent="40.2083" x="1.06018"/>
+    <userdata author="" title="Kantor Lama" datetime="" latitude="" source="" nodeid="node6" heading="0" info="" customnodeid="" copyright="" description="" comment="" tags="Pano2VR7" longitude="">
+      <mapcoords x="1.06018" y="-1.12198" y_floorplan_percent="75.6481" x_floorplan_percent="40.2083" mapid="FloorPlan01"/>
     </userdata>
-    <hotspots wordwrap="1" width="180" smoothmovement="0" height="20">
-      <label wordwrap="1" textalpha="1" background="1" bordercolor="0x000000" borderalpha="1" border="1" backgroundcolor="0xffffff" backgroundalpha="1" textcolor="0x000000" width="180" borderradius="1" height="20" enabled="1"/>
+    <hotspots smoothmovement="0" width="180" height="20" wordwrap="1">
+      <label borderalpha="1" width="180" backgroundalpha="1" enabled="1" borderradius="1" background="1" height="20" backgroundcolor="0xffffff" wordwrap="1" border="1" textalpha="1" bordercolor="0x000000" textcolor="0x000000"/>
       <polystyle backgroundcolor="0x0000ff" handcursor="1" backgroundalpha="0.25098" mode="0" bordercolor="0x0000ff" borderalpha="1"/>
-      <hotspot pan="-17.24" description="" url="images/foto 1.jpg" title="Tampak Depan" skinid="ht_image" target="" tilt="20.21" id="Point01"/>
-      <hotspot pan="-42.76" description="gedung existing di area mako&#xa;" url="" title="Informasi Umum" skinid="ht_info" target="" tilt="12.22" id="Point03"/>
-      <hotspot pan="-55.83" description="" url="{node3}" title="Gudang Amunisi" skinid="ht_node" target="" tilt="1.7" id="Point04"/>
-      <hotspot pan="-60.44" description="" url="{node4}" title="Parkiran Khusus" skinid="ht_node" target="" tilt="7.23" id="Point05"/>
+      <hotspot title="Tampak Depan" target="" id="Point01" skinid="ht_image" pan="-17.24" tilt="20.21" description="" url="images/foto 1.jpg"/>
+      <hotspot title="Informasi Umum" target="" id="Point03" skinid="ht_info" pan="-42.76" tilt="12.22" description="gedung existing di area mako&#xa;" url=""/>
+      <hotspot title="Gudang Amunisi" target="" id="Point04" skinid="ht_node" pan="-55.83" tilt="1.7" description="" url="{node3}"/>
+      <hotspot title="Parkiran Khusus" target="" id="Point05" skinid="ht_node" pan="-60.44" tilt="7.23" description="" url="{node4}"/>
     </hotspots>
     <media/>
-    <transition zoomout="0" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" zoomafteroutfov="40" zoomafterinfov="140" zoomfov="40" delay="none" softedge="0" blendtime="1" zoomin="0" type="crossdissolve" enabled="1"/>
-    <animation clipsrandom="0" animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
-    <control invertcontrol="1" lockedmouse="0" rubberband="0" zoomcentercursor="1" lockedwheel="0" speedwheel="1" contextvr="1" lockedkeyboard="0" contextfullscreen="1" sensitivity="8" lockedkeyboardzoom="0" dblclickfullscreen="0" contextprojections="0" hideabout="0" simulatemass="1" invertwheel="0"/>
+    <transition type="crossdissolve" softedge="0" zoomin="0" enabled="1" delay="none" blendtime="1" zoomout="0" zoomfov="40" zoomafteroutfov="40" blendcolor="0x000000" zoomoutpause="1" zoomspeed="2" zoomafterinfov="140"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control zoomcentercursor="1" invertcontrol="1" lockedkeyboardzoom="0" sensitivity="8" dblclickfullscreen="0" invertwheel="0" hideabout="0" simulatemass="1" contextvr="1" rubberband="0" lockedwheel="0" speedwheel="1" contextprojections="0" lockedmouse="0" lockedkeyboard="0" contextfullscreen="1"/>
   </panorama>
   <masternode>
-    <userdata description="" title="" author="" comment="" tags="" copyright=""/>
+    <userdata author="" comment="" title="" tags="" copyright="" description=""/>
     <animationsequences>
       <sequence title="Animation01"/>
     </animationsequences>
   </masternode>
-  <map title="" transparent="0" zoomlevels="1" crispedges="0" tileformat="jpg" width="7680" floorplannorth="0" index="0" type="file" height="4320" bgcolor="rgba(255, 255, 255, 1)" id="FloorPlan01"/>
+  <map transparent="0" type="file" crispedges="0" title="" width="7680" id="FloorPlan01" bgcolor="rgba(255, 255, 255, 1)" height="4320" zoomlevels="1" tileformat="jpg" floorplannorth="0" index="0"/>
 </tour>
